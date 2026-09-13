@@ -20,7 +20,7 @@ docker compose up
 
 ## Configuraciones por entorno
 ### Intancias
-- MESSAGE= Josep Pereda Flores
+- MESSAGE= Josep Pereda Flores.
 
 ### PostgreSQL
 -   POSTGRES_USER= admin
