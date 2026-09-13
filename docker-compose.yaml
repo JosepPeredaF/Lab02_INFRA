@@ -24,5 +24,16 @@ services:
     environment:
       - MESSAGE= soy, Josep Pereda
     
- 
+  db:
+    image: postgres
+    container_name: db
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=upao
+      - POSTGRES_DB=lab02_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
   
+
+volumes:
+  pgdata:
