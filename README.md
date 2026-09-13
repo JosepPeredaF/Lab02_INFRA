@@ -19,8 +19,13 @@ docker compose up
 ```
 
 ## Configuraciones por entorno
+### Intancias
+- MESSAGE= Josep Pereda Flores
 
-MESSAGE= Pereda 
+### PostgreSQL
+-   POSTGRES_USER= admin
+-   POSTGRES_DB= lab02_db
+
 
 
 # Volumenes y redes
