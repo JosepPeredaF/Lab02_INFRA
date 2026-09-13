@@ -1,0 +1,28 @@
+
+services:
+  app1:
+    build: ./hello-world-api
+    container_name: app1
+    ports:
+      - "3000:3000"
+    environment:
+      - MESSAGE= soy, Josep Pereda
+
+  app2:
+    build: ./hello-world-api
+    container_name: app2
+    ports:
+      - "3001:3000"
+    environment:
+      - MESSAGE= soy, Josep Pereda
+
+  app3:
+    build: ./hello-world-api
+    container_name: app3
+    ports:
+      - "3002:3000"
+    environment:
+      - MESSAGE= soy, Josep Pereda
+    
+ 
+  
